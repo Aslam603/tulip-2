@@ -174,16 +174,16 @@ nav>ul li a{
 }
 .rose{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 25px;
+grid-template-columns: repeat(3,1fr);
+ gap: 25px;
+    
 }
-.rose div:nth-child(1){
-    grid-column: span 3;
-}
+
 .red{
     padding: 25px;
     border-radius: 16px;
     text-align: left;
+    
 }
 .red img{
     width: 40px;
