@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1250px;
+    margin: auto;
+color: aliceblue;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 7px,2px;
+    background-color: rgba(26,11,46,1);
+    border-bottom:2px; border-style: solid;border-color: floralwhite;
+    
+    
+    
+}
+nav>div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+nav>div>h1{
+    font-weight: 700;
+    font-size: 26px;
+}
+.one{
+    padding-left: 50px;
+}
+
+.wave{
+    background:linear-gradient(90deg,
+     dodgerblue,blue,purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav>ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    list-style: none;
+    
+}
+nav>ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 10px;
+    padding:16px,32px;
+    border: none;
+    color: aliceblue;
+    background:linear-gradient(to right,
+    rgba(247,233,63,1),
+    rgba(251,9,180,1),
+    rgba(145,0,248,1)
+    );
+    width: 150px;
+    height: 30px;
+    
+}
+.banner-section{
+    background-image: url(../assets/hero-bg.png);
+    min-height: 500px;
+    display: flex;
+ background-repeat:no-repeat;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ color: aliceblue;
+ background-size: cover;
+}
+.banner-section>div>h2{
+    font-weight: 700;
+    font-size: 32px;
+}
+.banner-section>div{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.btn2{
+    width: 100px;
+    height: 30px;
+    border-color: green; border-style: solid;
+    color: green;
+    border-radius: 10px;
+    padding: 16px,32px;
+    background-color: #1A0B2E;
+}
+.banner-section .rounded-mic-parent{
+    position: relative;
+}
+.banner-section .rounded-mic-parent .rounded-shape{
+
+    width: 270px;
+    height: auto;
+} 
+
+.banner-section .rounded-mic-parent .mic{
+    height: auto;
+    width: 85px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-section .rounded-mic-parent span{
+    background-color: #00FF88;
+    color: black;
+    font-weight: 700;
+    padding: 10px , 20px;
+    border-radius: 10px;
+    display:inline-block;
+    position: absolute;
+    left: 280px;
+    top: -5px;
+    width: 40px;
+    height: 20px;
+}
+.lily{
+    background-color: #1A0B2E;
+    margin: auto 135px;
+    padding-bottom: 30px;
+}
+.text{
+    text-align: center;
+    color: aliceblue;
+
+    
+}
+.gap{
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    color: #00FF88;
+}
+.star{
+    display: inline-block;
+    text-align:center ;
+}
+.label{
+    font-size: 12px;
+    white-space: nowrap;
+}
+.gap2{
+    padding-bottom: 30px;
+}
+
+.choose{
+    text-align: center;
+}
+.tulip{
+    background-color: #1A0B2E;
+   color: aliceblue;
+   max-width: 1250px;
+   margin: auto;
+   padding: 40px 20px;
+}
+.rose{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.rose div:nth-child(1){
+    grid-column: span 3;
+}
+.red{
+    padding: 25px;
+    border-radius: 16px;
+    text-align: left;
+}
+.red img{
+    width: 40px;
+    margin-bottom: 15px;
+}
+.red h4{
+    margin-bottom: 15px;
+}
+.red p{
+    font-size: 14px;
+}
