@@ -34,6 +34,8 @@ nav>div>h1{
 }
 .tech{
     padding-left: 50px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .wave{
@@ -303,7 +305,7 @@ padding: 8px;
   
   border-radius: 15px;  margin-left: 120px;
   margin-right: 120px;
-  margin-bottom: 30px;
+  
   display: flex;
   padding: 40px;
 
@@ -324,6 +326,39 @@ padding: 8px;
     display: flex;
     align-items: center;
     gap: 5px;
+}
+.fruty{
+    position: relative;
+    max-width: 1250px;
+    margin: auto;
+
+}
+.fruty>img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.end{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: aliceblue;
+}
+.cheese{
+    font-weight:bolder;
+    font-size: 55px;
+    margin-bottom: 18px;
+}
+.tibet{
+    display: flex;
+    align-items: center;
+    gap:100px;
+    
+}
+.end>p{
+    margin-top: 25px;
 }
 @media screen and (max-width: 576px;){
     nav{
