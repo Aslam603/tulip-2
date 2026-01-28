@@ -162,36 +162,4 @@ nav>ul li a{
     padding-bottom: 30px;
 }
 
-.choose{
-    text-align: center;
-}
-.tulip{
-    background-color: #1A0B2E;
-   color: aliceblue;
-   max-width: 1250px;
-   margin: auto;
-   padding: 40px 20px;
-}
-.rose{
-    display: grid;
-grid-template-columns: repeat(3,1fr);
- gap: 25px;
-    
-}
 
-.red{
-    padding: 25px;
-    border-radius: 16px;
-    text-align: left;
-    
-}
-.red img{
-    width: 40px;
-    margin-bottom: 15px;
-}
-.red h4{
-    margin-bottom: 15px;
-}
-.red p{
-    font-size: 14px;
-}
