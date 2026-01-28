@@ -69,6 +69,11 @@ nav>ul li a{
     height: 30px;
     
 }
+.hamburger{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
 .banner-section{
     background-image: url(../assets/hero-bg.png);
     min-height: 500px;
@@ -133,6 +138,7 @@ nav>ul li a{
     background-color: #1A0B2E;
     margin: auto 135px;
     padding-bottom: 30px;
+    max-width: 1250px;
 }
 .text{
     text-align: center;
@@ -161,5 +167,104 @@ nav>ul li a{
 .gap2{
     padding-bottom: 30px;
 }
+.annoyed{
+    background: #1A0B2E;
+    color: aliceblue;
+    max-width: 1250px;
+    margin: auto;
+    padding: 40px 20px;
+}
+.ugh{
+    display: grid;
+    gap: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: blueviolet;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 150px;
+    margin-left: 70px;
+    
+    
+}
+.one{
+    grid-column: span 1;
+    grid-row: span 2;
+    padding:40px;
+    border: 2px; border-radius: 15px; border-style: solid; border-color:purple;
+    box-shadow: #1A0B2E;
 
+}
+.one>img{
+    margin-bottom: 15px;
+}
+.one>h4{
+    margin-bottom: 20px;
+}
+.two{
+    grid-column: span 2;
+    grid-row: span 1;
+    padding: 20px;
+        border: 2px; border-radius: 15px; border-style: solid; border-color:purple;
+    box-shadow: #1A0B2E;
 
+}
+.two>img{
+    margin-bottom: 5px;
+}
+.two>h4{
+    margin-bottom: 5px;
+}
+.five>img{
+    margin-bottom: 3px;
+}
+.five{
+    grid-column: span 1;
+    grid-row: span 1;        border: 2px; border-radius: 15px; border-style: solid; border-color:purple;
+
+padding: 8px;
+    box-shadow: #1A0B2E;
+
+}
+.five>h4{
+    margin-bottom: 3px;
+}
+
+.annoyed>div>h1{
+    text-align: center;
+    margin-bottom: 40px;    
+
+    
+}
+.one{
+    grid-column: ;
+}
+
+@media screen and  (max-width: 576px;){
+    nav{
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: #1A0B2E;
+        flex-direction: column;
+        padding: 15px;
+        display: none;
+    }
+.hamburger{
+    display: flex;
+
+}
+.banner-section{
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+.btn .btn2{
+    flex-direction: row;
+}
+.rounded-mic-parent{
+    width: 200px;
+    height: 200px;
+}
+
+}
+    
